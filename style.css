@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #C4DFAA;
+    background-color: #F5F0BB;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .top {
     display: flex;
@@ -16,7 +19,7 @@ body {
     float: left;
 }
 .nav {
-    background-color: #F5F0BB;
+    background-color: #C4DFAA;
     margin-top: 5px;
     border-bottom: solid;
     border-top: solid;
@@ -28,6 +31,21 @@ body {
     padding-right: 2%;
     width: 30%;
     text-align: center;
+    background-color: #b4cf9b;
+    border-radius: 2vh;
+    text-decoration: none;
+    color: black;
+}
+.afb {
+    width: 100%;
+    overflow: hidden;
+}
+.left {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.right {
+    padding-right: 2vw;
 }
 .first {
     margin-top: 2vh;
@@ -64,20 +82,23 @@ body {
     height: 15vh;
     width: 15vh;
     float: right;
-    background-color: #90C8AC;
+    background-image: url(afbeeldingen/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-left: solid;
     border-top: solid;
     border-bottom: solid;
     border-right: solid;
     border-top-left-radius: 15vw;
-    border-top-right-radius: 15vw;
+    border-top-right-radius: 5vw;
     border-bottom-left-radius: 5vw;
     border-bottom-right-radius: 5vw;
 }
 .third {
     margin-top: 2vh;
-    height: 15vh;
-    width: 70vw;
+    height: 25vh;
+    width: 60vw;
     float: right;
     background-color: #90C8AC;
     border-left: solid;
@@ -85,4 +106,30 @@ body {
     border-bottom: solid;
     border-top-left-radius: 15vw;
     border-bottom-left-radius: 5vw;
+}
+.third-x {
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    height: 25vh;
+    width: 20vh;
+    float: left;
+    background-image: url(afbeeldingen/stock.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 15vw;
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+footer {
+    border-top: solid;
+    height: 20vh;
+    width: 100vw;
+    margin-top: auto;
+    padding: 1.5vw;
 }
