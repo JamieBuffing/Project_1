@@ -163,7 +163,7 @@ body {
 .five {
     margin-top: 2vh;
     height: auto;
-    width: 80vw;
+    width: 75vw;
     float: right;
     border-left: solid;
     border-top: solid;
@@ -255,6 +255,8 @@ body {
 }
 .ervaringimg1 {
     background-image: url(afbeeldingen/stock.jpg);
+    width: 12vh;
+    height: 192px;
 }
 .ervaringimg2 {
     background-image: url(afbeeldingen/stock.jpg);
