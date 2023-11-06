@@ -3,8 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.cback {
+    background-color: #F8FDCF;
+}
+.cel {
+    background-color: #78C1F3;
+}
+.cel2 {
+    background-color: #9BE8D8;
+}
+.cbut {
+    background-color: #98E8D8;
+}
 body {
-    background-color: #F5F0BB;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,7 +31,6 @@ body {
     padding: 2vw;
 }
 .nav {
-    background-color: #C4DFAA;
     margin-top: 5px;
     border-bottom: solid;
     border-top: solid;
@@ -32,7 +42,7 @@ body {
     padding-right: 2%;
     width: 30%;
     text-align: center;
-    background-color: #b4cf9b;
+    background-color: #78a790;
     border-radius: 2vh;
     text-decoration: none;
     color: black;
@@ -48,11 +58,13 @@ body {
     border-radius: 2vw;
     text-decoration: none;
     color: black;
-    background-color: #b4cf9b;
+    border: solid;
 }
 .linkb {
     float: right;
     margin-top: 2vw;
+    width: 70%;
+    background-color: #e2f6ca;
 }
 .afb {
     width: 100%;
@@ -67,7 +79,6 @@ body {
     height: 10vh;
     width: 70vw;
     float: right;
-    background-color: #90C8AC;
     border-left: solid;
     border-top: solid;
     border-bottom: solid;
@@ -84,7 +95,6 @@ body {
     height: 15vh;
     width: 70vw;
     float: left;
-    background-color: #90C8AC;
     border-right: solid;
     border-top: solid;
     border-bottom: solid;
@@ -97,7 +107,6 @@ body {
     height: 15vh;
     width: 15vh;
     float: right;
-    background-image: url(afbeeldingen/blad.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,17 +124,11 @@ body {
     height: 25vh;
     width: 60vw;
     float: right;
-    background-color: #90C8AC;
     border-left: solid;
     border-top: solid;
     border-bottom: solid;
     border-top-left-radius: 15vw;
     border-bottom-left-radius: 5vw;
-}
-.third h3 {
-    text-align: right;
-}
-.third p {
     text-align: right;
 }
 .third-x {
@@ -134,7 +137,6 @@ body {
     height: 25vh;
     width: 20vh;
     float: left;
-    background-image: url(afbeeldingen/stock.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,17 +151,130 @@ body {
 }
 .four {
     margin-top: 2vh;
-    height: 15vh;
+    height: auto;
     width: 80vw;
     float: left;
-    background-color: #90C8AC;
     border-right: solid;
     border-top: solid;
     border-bottom: solid;
     border-top-right-radius: 15vw;
     border-bottom-right-radius: 5vw;
 }
-footer {
+.five {
+    margin-top: 2vh;
+    height: auto;
+    width: 80vw;
+    float: right;
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-top-left-radius: 15vw;
+    border-bottom-left-radius: 5vw;
+    text-align: right;
+}
+.d1 {
+    width: 95vw;
+}
+.d2 {
+    width: 65vw;
+}
+.fourth-x {
+    margin-top: 2vh;
+    margin-right: 1.5vw;
+    height: 25vh;
+    width: 25vh;
+    float: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-top-left-radius: 30vw;
+    border-top-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 15vw;
+}
+.fifth-x {
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    height: 25vh;
+    width: 25vh;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 30vw;
+    border-bottom-left-radius: 15vw;
+    border-bottom-right-radius: 5vw;
+}
+.sixth-x {
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    height: 118.4px;
+    width: 18vh;
+    float: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-top-left-radius: 15vw;
+    border-top-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+.indeximg1 {
+    background-image: url(afbeeldingen/blad.png);
+}
+.indeximg2 {
+    background-image: url(afbeeldingen/stock.jpg);
+}
+.duurimg1 {
+    background-image: url(afbeeldingen/blad.png);
+}
+.duurimg2 {
+    background-image: url(afbeeldingen/stock.jpg);
+}
+.duurimg3 {
+    background-image: url(afbeeldingen/stock.jpg);
+}
+.duurimg4 {
+    background-image: url(afbeeldingen/1.jpg);
+}
+.duurimg5 {
+    background-image: url(afbeeldingen/stock.jpg);
+}
+.ervaringimg1 {
+    background-image: url(afbeeldingen/stock.jpg);
+}
+.ervaringimg2 {
+    background-image: url(afbeeldingen/stock.jpg);
+}
+.geschiedenisimg1 {
+    background-image: url(afbeeldingen/stock.jpg);
+}
+.geschiedenisimg2 {
+    background-image: url(afbeeldingen/stock.jpg);
+}
+.faqimg1 {
+    background-image: url(afbeeldingen/stock.jpg);
+}
+.faqimg2 {
+    background-image: url(afbeeldingen/stock.jpg);
+}
+.down {
+    height: 63vh;
+}
+.footer {
     border-top: solid;
     height: 20vh;
     width: 100vw;
