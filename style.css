@@ -77,7 +77,7 @@ body {
 .first {
     margin-top: 2vh;
     height: 10vh;
-    width: 70vw;
+    width: 67vw;
     float: right;
     border-left: solid;
     border-top: solid;
@@ -93,7 +93,7 @@ body {
 .second {
     margin-top: 2vh;
     height: 15vh;
-    width: 70vw;
+    width: 67vw;
     float: left;
     border-right: solid;
     border-top: solid;
@@ -122,7 +122,7 @@ body {
 .third {
     margin-top: 2vh;
     height: 25vh;
-    width: 60vw;
+    width: 57vw;
     float: right;
     border-left: solid;
     border-top: solid;
@@ -152,7 +152,7 @@ body {
 .four {
     margin-top: 2vh;
     height: auto;
-    width: 80vw;
+    width: 77vw;
     float: left;
     border-right: solid;
     border-top: solid;
@@ -163,7 +163,7 @@ body {
 .five {
     margin-top: 2vh;
     height: auto;
-    width: 75vw;
+    width: 73vw;
     float: right;
     border-left: solid;
     border-top: solid;
