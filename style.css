@@ -156,7 +156,7 @@ body {
 .four {
     margin-top: 2vh;
     height: auto;
-    width: 77vw;
+    width: 75vw;
     float: left;
     border-right: solid;
     border-top: solid;
@@ -166,7 +166,7 @@ body {
 }
 .five {
     margin-top: 2vh;
-    height: auto;
+    height: 30vh;
     width: 73vw;
     float: right;
     border-left: solid;
@@ -180,13 +180,13 @@ body {
     width: 95vw;
 }
 .d2 {
-    width: 65vw;
+    width: 61vw;
 }
 .fourth-x {
     margin-top: 2vh;
     margin-right: 1.5vw;
     height: 25vh;
-    width: 25vh;
+    width: 24vh;
     float: right;
     background-position: center;
     background-repeat: no-repeat;
@@ -204,7 +204,7 @@ body {
     margin-top: 2vh;
     margin-left: 1.5vw;
     height: 25vh;
-    width: 25vh;
+    width: 24vh;
     float: left;
     background-position: center;
     background-repeat: no-repeat;
@@ -328,7 +328,7 @@ body {
 .cijfersimg1 {
     background-image: url(afbeeldingen/c5.png);
     width: 12vh;
-    height: 192px;
+    height: 30vh;
 }
 .geschiedenisimg1 {
     background-image: url(afbeeldingen/g6.png);
