@@ -181,6 +181,7 @@ body {
 }
 .d2 {
     width: 61vw;
+    overflow: scroll;
 }
 .fourth-x {
     margin-top: 2vh;
