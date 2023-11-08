@@ -46,6 +46,7 @@ body {
     border-radius: 2vh;
     text-decoration: none;
     color: black;
+    overflow: hidden;
 }
 .home {
     position: absolute;
@@ -59,6 +60,9 @@ body {
     text-decoration: none;
     color: black;
     border: solid;
+}
+.down {
+    height: 63vh;
 }
 .linkb {
     float: right;
@@ -232,49 +236,130 @@ body {
     border-bottom-left-radius: 5vw;
     border-bottom-right-radius: 5vw;
 }
+.double {
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    height: 31.9vh;
+    width: 20vw;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 15vw;
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+.bigimg {
+    margin-top: 2vh;
+    margin-right: 1.5vw;
+    height: 30vh;
+    width: 87vw;
+    float: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-top-left-radius: 15vw;
+    border-top-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+.bigimg a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-top: 25vh;
+    margin-right: 2vw;
+    float: right;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.faq {
+    height: 15vh;
+    overflow: scroll;
+}
+.newf-x {
+    margin-top: 2vh;
+    margin-right: 1.5vw;
+    height: 15vh;
+    width: 20vw;
+    float: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-top-left-radius: 15vw;
+    border-top-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
 .indeximg1 {
     background-image: url(afbeeldingen/blad.png);
 }
 .indeximg2 {
-    background-image: url(afbeeldingen/stock.jpg);
+    background-image: url(afbeeldingen/h1.png);
 }
 .duurimg1 {
     background-image: url(afbeeldingen/blad.png);
 }
 .duurimg2 {
-    background-image: url(afbeeldingen/stock.jpg);
+    background-image: url(afbeeldingen/d2.png);
 }
 .duurimg3 {
-    background-image: url(afbeeldingen/stock.jpg);
+    background-image: url(afbeeldingen/3.jpg);
 }
 .duurimg4 {
     background-image: url(afbeeldingen/1.jpg);
 }
 .duurimg5 {
-    background-image: url(afbeeldingen/stock.jpg);
+    background-image: url(afbeeldingen/d4.png);
 }
-.ervaringimg1 {
-    background-image: url(afbeeldingen/stock.jpg);
+.cijfersimg1 {
+    background-image: url(afbeeldingen/c5.png);
     width: 12vh;
     height: 192px;
 }
-.ervaringimg2 {
-    background-image: url(afbeeldingen/stock.jpg);
-}
 .geschiedenisimg1 {
-    background-image: url(afbeeldingen/stock.jpg);
+    background-image: url(afbeeldingen/g6.png);
 }
 .geschiedenisimg2 {
-    background-image: url(afbeeldingen/stock.jpg);
+    background-image: url(afbeeldingen/g7.png);
+}
+.geschiedenisimg3 {
+    background-image: url(afbeeldingen/g8.png);
+}
+.geschiedenisimg4 {
+    background-image: url(afbeeldingen/locaties.jpg);
 }
 .faqimg1 {
-    background-image: url(afbeeldingen/stock.jpg);
+    background-image: url(afbeeldingen/f9.png);
 }
 .faqimg2 {
-    background-image: url(afbeeldingen/stock.jpg);
+    background-image: url(afbeeldingen/f10.png);
 }
-.down {
-    height: 63vh;
+.faqimg3 {
+    background-image: url(afbeeldingen/f11.png);
+}
+.faqimg4 {
+    background-image: url(afbeeldingen/f12.png);
+}
+.faqimg5 {
+    background-image: url(afbeeldingen/f13.png);
+}
+hr {
+    border-top: 2px solid black;
+    width: 70%;
 }
 .footer {
     border-top: solid;
