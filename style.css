@@ -13,7 +13,7 @@
     background-color: #9BE8D8;
 }
 .cbut {
-    background-color: #98E8D8;
+    background-color: #9BE8D8;
 }
 body {
     min-height: 100vh;
@@ -42,7 +42,7 @@ body {
     padding-right: 2%;
     width: 30%;
     text-align: center;
-    background-color: #78a790;
+    background-color: #9BE8D8;
     border-radius: 2vh;
     text-decoration: none;
     color: black;
@@ -368,4 +368,8 @@ hr {
     width: 100vw;
     padding: 1.5vw;
     margin-top: 2vh;
+}
+.footer a {
+    color: black;
+    text-decoration: underline;
 }
